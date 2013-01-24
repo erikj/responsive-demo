@@ -1,5 +1,17 @@
-# Responsive Demo
+# Twitter Bootstrap: Responsive design
 
-## TODO
 
-distill Twitter Bootstrap's [responsive CSS](http://twitter.github.com/bootstrap/scaffolding.html#responsive) demo to a single page, so that responsive behavior can be easily demonstrated "above the fold," @ the top of the web page.
+## About
+
+A simple web page to demonstrate
+[Twitter Bootstrap](http://twitter.github.com/bootstrap)'s
+[Responsive-design features](http://twitter.github.com/bootstrap/scaffolding.html#responsive).
+
+### Demo
+
+Demo available @ <http://erikj.github.com/responsive-demo/>
+
+### Code
+
+Code available @ <https://github.com/erikj/responsive-demo>
+
