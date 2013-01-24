@@ -1,6 +1,34 @@
 !!!
 %html
   %head
-    %link{ :href=>"//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css", :rel=>"stylesheet" }
+    %link{ :href=>"http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css", :rel=>"stylesheet" }
+    %link{ :href=>"http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-responsive.min.css", :rel=>"stylesheet"}
+    %link{ :href=>"responsive-tests.css", :rel=>"stylesheet"}
   %body
     .container
+      %h3 Responsive utilities test case
+      %p Resize your browser or load on different devices to test the above classes.
+      %h4 Visible on...
+      %p Green checkmarks (&#x2713;) indicate that class is visible in your current viewport.
+      %ul.responsive-utilities-test
+        %li
+          Phone
+          %span.visible-phone &#x2713; Phone
+        %li
+          Tablet
+          %span.visible-tablet &#x2713; Tablet
+        %li
+          Desktop
+          %span.visible-desktop &#x2713; Desktop
+      %h4 Hidden on...
+      %p Here, green checkmarks indicate that class is hidden in your current viewport.
+      %ul.responsive-utilities-test.hidden-on
+        %li
+          Phone
+          %span.hidden-phone &#x2713; Phone
+        %li
+          Tablet
+          %span.hidden-tablet &#x2713; Tablet
+        %li
+          Desktop
+          %span.hidden-desktop &#x2713; Desktop
